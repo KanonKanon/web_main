@@ -1,0 +1,756 @@
+body{
+    font-family: "Microsoft Yahei";
+    color: #666;
+    font-size: 12px;
+}
+/* 顶部状态条样式 */
+.header_con{
+    width: 100%;
+    height: 29px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.header{
+    width: 1200px;
+    height: 29px;
+    margin: 0 auto;
+}
+
+.welcome{
+    font: 14px/29px "Mircrosoft Yahei";
+
+}
+
+.user_login_link,.user_welcome,.user_shopping{
+    height: 29px;
+    line-height: 29px;
+}
+.user_login_link a,.user_shopping a{
+    color: #666;
+
+}
+.user_login_link a:hover,.user_shopping a:hover{
+    color: #f80;
+}
+
+.user_login_link span,.user_shopping span{
+    margin: 0 15px;
+    color: #cecece;
+    line-height: 29px;
+}
+.user_welcome em{
+    color: #f80;
+}
+
+/* 顶部状态条样式 */
+
+/* logo、搜索、购物车样式、 */
+.logo_bar{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+}
+.logo{
+    width:151px;
+    height:59px;
+    margin: 29px auto 17px;
+}
+.search{
+    width: 616px; 
+    height: 38px;
+    border: 1px solid #37ab40;
+    margin: 34px 0 0 123px;
+    background: url(../images/icons.png) 8px -336px no-repeat;
+}
+.search .input_text{
+    width:470px;
+    height: 38px; 
+    border: none;
+    margin-left: 37px;
+    outline: none;
+
+}
+.search .input_btn{
+    width: 100px;
+    height: 38px;
+    background-color: #37ab40;
+    border: none;
+    font: 14px/38px "Microsoft Yahei";
+    color: white;
+    cursor: pointer;
+}
+.chart{
+    width: 200px;
+    height: 40px;
+    margin-top: 34px;
+} 
+.chart a{
+   width: 158px;
+   height: 38px;
+   border: 1px solid #ddd;
+   font: 14px/38px "Microsoft Yahei";
+   color: #37ab40;
+   text-indent: 56px;
+   background: url(../images/icons.png) 16px -300px #f7f7f7 no-repeat;
+}
+.chart a:hover{
+    color: #f80;
+
+}
+.chart span{
+    width: 40px;
+    height: 40px;
+    background-color: #f80;
+    font:bold 18px/40px "Microsoft Yahei";
+    color: white;
+    text-align: center;  
+}
+/* logo、搜索、购物车样式、 */
+
+/* 次级菜单 */
+.sub_menu_con{
+   height: 40px; 
+   border-bottom: 2px solid #37ab40;
+}
+
+.sub_menu{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.sub_menu h1{
+    width:200px;
+    height: 40px;
+    background-color: #37ab40;
+    font: 14px/40px "Microsoft Yahei";
+    color: white;
+    text-align: center;
+}
+.sub_menu ul{
+    overflow: hidden;
+    height: 40px;
+}
+.sub_menu li{
+    float: left;
+    height: 14px;
+    padding: 0 26px;
+    border-left: 1px solid #666;
+    margin: 13px 0 0 -1px;
+}
+.sub_menu li a{
+    font: 14px/14px "Microsoft Yahei";
+    color: #666;
+}
+.sub_menu li a:hover{
+    color: #f80;
+}
+/* 次级菜单 */
+
+/* 中间主体样式 */
+.center_con{
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+
+}
+.center_con .main_menu{
+    width: 200px;
+    height: 270px;
+    overflow: hidden;
+}
+.main_menu li{
+    width: 198px;
+    height: 44px;
+    border: 1px solid #eee;
+    margin-top: -1px;
+    background: url(../images/icons.png) 176px -257px no-repeat;
+}
+.main_menu li a{
+    display: block;
+    width: 198px;
+    height: 44px;
+    font:14px/44px "Microsoft Yahei";
+    color: #666;
+    text-indent: 76px;
+    background: url(../images/icons.png) 176px -257px no-repeat;
+}
+/* 用类做样式名字太长 改用id更好 */
+/* .main_menu li .frult{
+    background-position: 33px 0px;
+}
+ .main_menu li .seefood{
+    background-position: 33px -42px;
+}
+.main_menu li .meat{
+    background-position: 34px -87px;
+}
+.main_menu li .egg{
+    background-position: 33px -134px;
+}
+.main_menu li .vagetable{
+    background-position: 33px -176px;
+}
+.main_menu li .coldfood{
+    background-position: 33px -221px;
+} */
+#frult{
+    background-position: 33px 0px;
+}
+#seafood{
+    background-position: 33px -42px;
+}
+#meat{
+    background-position: 34px -87px;
+}
+#egg{
+    background-position: 33px -134px;
+}
+#vagetable{
+    background-position: 33px -176px;
+}
+#coldfood{
+    background-position: 33px -221px;
+}
+
+/* 幻灯片 */
+.slide_con{
+   width: 760px;
+   height: 270px; 
+   position: relative;
+   overflow: hidden;
+
+}
+.slide{
+    width: 760px;
+    height: 270px; 
+    position: relative;
+    left: 0;
+}
+.slide li{
+    width: 760px;
+    height: 270px;
+    position: absolute;
+    left: 760px;
+}
+.prev{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    left: 11px;
+    top: 122px;
+    background: url(../images/icons.png) 0 -388px no-repeat;
+    cursor: pointer;
+}
+
+.next{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    left: 732px;
+    top: 122px;
+    background: url(../images/icons.png) 0 -428px no-repeat;
+    cursor: pointer;
+}
+.points{
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 0;
+    bottom: 9px;
+    text-align: center;
+    font-size: 0;
+}
+.points li{
+    width: 11px;
+    height: 11px;
+    display:inline-block;
+    background-color: #9f9f9f;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.points .active{
+    background-color: #cecece;
+}
+.points li:hover{
+    cursor: pointer;
+}
+.adv{
+    width: 240px;
+    height: 270px;
+}
+
+.adv a{
+    float: left;
+    width: 240px;
+    height: 135px;
+}
+/* img图片会有3像素的白边bug */
+.adv a img{
+    display: block;
+}
+
+/* 中间主体样式 */
+
+/* 通用样式 */
+.common_model{
+    width: 1200px;
+    height: 340px;
+    margin: 17px auto 0;
+}
+.common_title{
+    height: 38px;
+    border-bottom: 2px solid #37ab40;
+
+}
+.common_title h3{
+    font:bold 16px/38px "Microsoft Yahei";
+    color: #37ab40;
+}
+
+.common_title ul{
+    height: 14px;
+    margin: 13px 0 0 20px;    
+}
+.common_title li{
+    float: left;
+    margin: 0 10px;
+    height: 14px;
+}
+.common_title li a{
+    font: 12px/14px "Microsoft Yahei";
+    color: #666;
+}
+.common_title li a:hover{
+    color: #f80;
+}
+.common_title .more{
+    margin-top: 13px;
+    font: 12px/14px "Microsoft Yahei";
+    color: #666
+}
+.common_title .more:hover{
+    color: #f80;
+}
+.common_model .common_goods_list{
+    width: 1200px;
+    height: 300px;
+}
+.common_banner{
+    width: 200px;
+    height: 300px;
+}
+.common_goods_list .goods_list{
+    width: 1000px;
+    height: 300px
+}
+.goods_list li{
+    width: 249px;
+    height:299px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    float: left;
+}
+.goods_list li:hover{
+    width: 248px;
+    height: 299px;
+    border: 1px solid yellow;
+}
+.goods_list li h4{
+    height: 52px;
+    font: 14px/52px "Microsoft Yahei";
+    color: #666;
+    text-align: center;
+}
+.goods_list li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.goods_list li p{
+    height: 52px;
+    font:bold 20px/52px "Microsoft Yahei";
+    color: red;
+    text-align: center;
+}
+
+/* 通用样式 */
+
+/* 网页底部样式 */
+.footer{
+    height: 145px;
+    border-top:2px solid #37ab40;
+    margin: 30px auto 0;
+}
+.footer .link_list{
+    width: 1200px;
+    margin-top:40px;
+    text-align: center;
+}
+.footer .link_list a{
+    font-size: 12px;
+    color: #666;
+
+}
+.footer .link_list a:hover{
+    color: #f80;
+}
+.footer .link_list span{
+    color: #666;
+    margin: 0 15px;
+}
+.footer p{
+    width: 1200px;
+    text-align: center;
+    color: #666;
+}
+/* 网页底部样式 */
+
+
+/* 登录页的样式 */
+
+/* logo的样式 */
+.logo_con{
+    width: 1280px;
+    height: 133px;
+}
+.logo_con a{
+    display: block;
+    width: 956px;
+    height: 76px;
+    margin: 36px 0 0 161px;
+}
+/* logo的样式 */
+
+/* 主体的样式 */
+.login_main_con{
+    border-top: 1px solid #37ab40;
+    border-bottom: 1px solid #37ab40;
+    height: 480px;
+    background-color: #4e8900;
+}
+
+.login_main_con .login_form{
+    width: 956px;
+    height: 480px;
+    margin: 0 auto;
+}
+.login_form .login_pic{
+    width: 383px;
+    height: 321px;
+    margin-top:96px;
+}
+
+.login_form .slogan{
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    line-height: 36px;
+    margin: 81px 0 0 114px;
+}
+.login_input{
+    width: 368px;
+    height: 378px;
+    border: 1px solid #d4d4d4;
+    margin-top: 52px;
+    background-color: white;
+}
+.input_form{
+    width: 306px;
+    height: 378px;
+    margin: 0 auto;
+}
+.input_title_con{
+    height: 68px;    
+    width: 306px;
+    margin: 0 auto;
+    border-bottom:1px solid #d4d4d4; 
+}
+.input_title_con .user_login{
+    font-size: 24px;
+    color: #a8a8a8;
+    margin:29px 0 0 34px;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+}
+.input_title_con .register{
+    font-size: 16px;
+    color: #5fb71f;
+    background: url(../images/icons02.png) 0 5px no-repeat;
+    margin:37px 0 0 44px;
+    text-indent: 22px;
+}
+
+.username_con{
+    width: 304px;
+    height: 34px;
+    border: 1px solid #dedede;
+    background-color: #eeeeee;
+    margin-top: 27px;
+}
+.username_input{
+    border:none;
+    width: 300px;
+    height: 34px;
+    outline: none;
+    margin-left: 5px;
+    background: url(../images/icons02.png) 270px -43px no-repeat;
+}
+.input_tips{
+    height: 37px;
+}
+.input_tips span{
+    float: left;
+    height: 12px;
+    font: 12px/12px "宋体";
+    color: #d15b00;
+    margin-top: 12px;
+    display: none;
+}
+
+.password_con{
+    width: 304px;
+    height: 34px;
+    border: 1px solid #dedede;
+    background-color: #eeeeee;
+}
+.password_input{
+    border:none;
+    width: 300px;
+    height: 34px;
+    outline: none;
+    margin-left: 5px;
+    background: url(../images/icons02.png) 270px -95px no-repeat;
+}
+.remember_name{
+    height: 51px;
+}
+.remember_input{
+    color:#adadad;
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+.remember_name label{
+    float: left;
+    margin-left: 3px;
+    color: #4b4b4b
+}
+.remember_name label:hover{
+    cursor: pointer;
+}
+.remember_name a{
+    color:#4b4b4b;
+}
+.remember_name a:hover{
+    color: #f80;
+}
+.login_input .input_button{
+    height: 38px;
+    width: 306px;
+    font-size: 24px;
+    color: white;
+    outline: none;
+    background-color:rgb(60,149,44);
+    border: none;
+    cursor: pointer;
+}
+/* 主体的样式 */
+
+/* 页尾样式  */
+.login_footer{
+    margin-top: 27px;
+    border-top: 0px;
+    height: 114px;
+}
+
+
+/* 登录页的样式 */
+
+
+/* 注册页的样式 */
+.register_body{
+    width: 100%;
+    height: 668px;
+    background-color: #fcfcfb;
+}
+.register_main_con{
+    width: 100%;
+    height: 560px;
+    margin-top: 50px;
+    border-bottom: 2px solid #5a8662;
+    background-color: #fcfcfb;
+}
+.register_left_con{
+    width: 43%;
+    height: 560px;
+    position: relative;
+}
+.register_logo{
+    display: block;
+    width:268px;
+    height: 501px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #37ab40;
+} 
+.register_logo img{
+    width: 100%;
+}
+
+.register_right_con{
+    width: 57%;
+    height: 560px;
+    position: relative;
+
+}
+.register_right_con .register_form{
+    width: 362px;
+    height: 100%;
+    margin-left: 29px;
+}
+
+.register_form .register_title{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e0e0df;
+    margin-bottom: 30px;
+}
+.register_form .register_title h2{
+    font:bold 20px/50px "Microsoft Yahei";
+    color: #9f9f9e;
+    display: inline-block;
+
+}
+.register_form .register_title .more{
+    float: right;
+    width: 54px;
+    height: 50px;
+}
+.register_title .more h3{
+    float: left;
+    font: 16px/17px "Microsoft Yahei";
+    color: #4e8900;
+    width: 35px;
+    height: 17px;
+    margin-top: 18px;
+}
+.register_title .more span{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url(../images/icons02.png) 0 0 no-repeat;
+    margin-top: 20px;
+    margin-left: 2px;
+
+}
+
+.register_right_con .register_input{
+    width: 362px;
+    height: 70px;
+    float: left;
+}
+.register_input label{
+    width: 70px;
+    height: 40px;
+    font: 15px/40px "Microsoft Yahei";
+    color: #a4a2a2;
+    float: left;
+}
+.register_input input{
+    width: 290px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #dfdfde;
+    float: right;
+    text-indent: 10px;
+}
+.register_input p{
+    width: 300px;
+    height: 30px;
+    float: left;
+    margin-left: 70px;
+    font: 12px/30px "Microsoft Yahei";
+    color: #ffb8ad;
+    display: none;
+}
+.register_form .register_check_box{
+    width: 362px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+}
+.register_check_box input{
+    width: 15px;
+    height: 15px;
+    float: left;
+    
+}
+.register_check_box label{
+    width: 200px;
+    height: 20px;
+    font: 15px/20px "Microsoft Yahei";
+    color: #a4a2a2;
+    float: left;
+}
+.register_check_box p{
+    width: 300px;
+    height: 20px;
+    float: left;
+    font: 12px/20px "Microsoft Yahei";
+    color: #ffb8ad;
+    text-indent: 28px;
+    display: none;
+}
+.register_check_box label{
+    float: left;
+    width: 200px;
+    height: 15px;
+    font: 14px/15px "Microsoft Yahei";
+    color: #a4a2a2;
+    text-indent: 14px;
+}
+
+.re_submit{
+    width: 360px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    font: 20px/40px "Microsoft Yahei";
+    color: white;
+    background: #389127;
+    text-align: center;
+    border: 1px solid #c3eeba;
+}
+.re_submit:hover{
+    cursor: pointer;
+}
+
+
+
+.register_footer_con{
+    width: 100%;
+    height: 60px;
+}
+
+.re_link_list{
+    width: 286px;
+    height: 14px;
+    margin: 30px auto 0;
+}
+.re_link_list li a{
+    font: 12px/14px "Microsoft Yahei";
+    color: #a4a2a2;
+}
+.re_link_list li span{
+    padding: 0 10px;
+    color: #a4a2a2;
+}
+
+
+
+
+/* 注册页的样式 */
