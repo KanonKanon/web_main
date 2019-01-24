@@ -385,7 +385,7 @@ body{
 }
 .footer .link_list{
     width: 1200px;
-    margin-top:40px;
+    margin:40px auto 0;
     text-align: center;
 }
 .footer .link_list a{
@@ -401,6 +401,8 @@ body{
     margin: 0 15px;
 }
 .footer p{
+    display:block;
+    margin: 0 auto;
     width: 1200px;
     text-align: center;
     color: #666;
